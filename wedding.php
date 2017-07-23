@@ -8,7 +8,7 @@
 			<div class="container center-block" id="container" style="visibility:hidden">
 				<div class="grid center-block">
 		  
-				<a href="#gallery" data-slide-to="0" class="grid__item grid__sizer"><img src="wedding/bride and flowers.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="0" class="grid__item grid__sizer"><img src="wedding/bride_and_flowers.jpg" data-toggle="modal" data-target="#myModal"></a>
 		   
 		 
 				<a href="#gallery" data-slide-to="1" class="grid__item" ><img src="wedding/bride and groom.jpg" data-toggle="modal" data-target="#myModal"></a>
