@@ -37,7 +37,7 @@
 					<ul class="dropdown-menu">
 						<li><a href="wedding.php">Wedding/Love-story</a></li>
 						<li><a href="portraits.php">Family/Portrait</a></li>
-						<li><a href="portraits.php">portrait</a></li>
+						<li><a href="events.php">Events</a></li>
 					</ul>
 			</li>
 			<li><a href="about.php">About</a></li>
