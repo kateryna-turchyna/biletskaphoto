@@ -36,6 +36,9 @@
 				
 				<a href="#gallery" data-slide-to="13" class="grid__item"><img src="portraits/sunny pregnancy.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
+				<a href="#gallery" data-slide-to="14" class="grid__item"><img src="portraits/girls_playing_with_flowers.jpg" data-toggle="modal" data-target="#myModal"></a>
+				
+				<a href="#gallery" data-slide-to="15" class="grid__item"><img src="portraits/mom_and_daughter.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
 		<!--begin modal window-->
 	<div class="modal fade modal-fullscreen force-fullscreen" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -91,6 +94,12 @@
 					</div>
 					
 					<div class="item vertical_modal center-block"><img src="portraits/sunny pregnancy.jpg" alt="sunny pregnancy">
+					</div>
+					
+					<div class="item vertical_modal center-block"><img src="portraits/girls_playing_with_flowers.jpg" alt="girls playing with flowers">
+					</div>
+					
+					<div class="item horizontal_modal center-block"><img src="portraits/mom_and_daughter.jpg" alt="mom and daughter">
 					</div>
 					
 					
