@@ -7,7 +7,7 @@
         <div class="row">
 			<div class="container center-block" id="container" style="visibility:hidden">
 				<div class="grid center-block">
-		  
+				<!-- test -->
 				<a href="#gallery" data-slide-to="0" class="grid__item grid__sizer"><img src="portraits/feeling.jpg" data-toggle="modal" data-target="#myModal"></a>
 		   
 				<a href="#gallery" data-slide-to="1" class="grid__item" ><img src="portraits/girl on the grass.jpg" data-toggle="modal" data-target="#myModal"></a>
