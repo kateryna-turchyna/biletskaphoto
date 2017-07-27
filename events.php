@@ -8,22 +8,28 @@
 			<div class="container center-block" id="container" style="visibility:hidden">
 				<div class="grid center-block">
 		  
-				<a href="#gallery" data-slide-to="0" class="grid__item grid__sizer"><img src="events/birthday girl.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="0" class="grid__item grid__sizer"><img src="events/birthday_girl.jpg" data-toggle="modal" data-target="#myModal"></a>
 		   
 				<a href="#gallery" data-slide-to="1" class="grid__item" ><img src="events/cheers.jpg" data-toggle="modal" data-target="#myModal"></a>
 	   
-				<a href="#gallery" data-slide-to="2" class="grid__item"><img src="events/dad and son.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="2" class="grid__item"><img src="events/dad_and_son.jpg" data-toggle="modal" data-target="#myModal"></a>
 		  
-				<a href="#gallery" data-slide-to="3" class="grid__item"><img src="events/girl at babyshower.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="3" class="grid__item"><img src="events/girl_at_babyshower.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
-				<a href="#gallery" data-slide-to="4" class="grid__item"><img src="events/make a wish.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="4" class="grid__item"><img src="events/make_a_wish.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
-				<a href="#gallery" data-slide-to="5" class="grid__item"><img src="events/man at the event.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="5" class="grid__item"><img src="events/man_at_the_event.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
-				<a href="#gallery" data-slide-to="6" class="grid__item"><img src="events/mom and son.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="6" class="grid__item"><img src="events/mom_and_son.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
-				<a href="#gallery" data-slide-to="7" class="grid__item"><img src="events/woman smiling.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="7" class="grid__item"><img src="events/woman_smiling.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
+				<a href="#gallery" data-slide-to="8" class="grid__item"><img src="events/baptism_church.jpg" data-toggle="modal" data-target="#myModal"></a>
+		
+				<a href="#gallery" data-slide-to="9" class="grid__item"><img src="events/details_baptism_church.jpg" data-toggle="modal" data-target="#myModal"></a>
+		
+				<a href="#gallery" data-slide-to="10" class="grid__item"><img src="events/small_girl_smile.jpg" data-toggle="modal" data-target="#myModal"></a>
+		
 		<!--begin modal window-->
 	<div class="modal fade modal-fullscreen force-fullscreen" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
@@ -38,28 +44,37 @@
 				<div id="gallery" class="carousel slide carousel-fade center-block" data-ride="carousel" data-interval="false">
 				<div class="carousel-inner center-block">
 				
-					<div class="item active center-block"><img src="events/birthday girl.jpg" alt="birthday girl">
+					<div class="item active center-block"><img src="events/birthday_girl.jpg" alt="birthday girl">
 					</div>
 					
 					<div class="item center-block"> <img src="events/cheers.jpg" alt="cheers">
 					</div>
 					
-					<div class="item center-block"> <img src="events/dad and son.jpg" alt="dad and son">
+					<div class="item center-block"> <img src="events/dad_and_son.jpg" alt="dad and son">
 					</div>
 					
-					<div class="item center-block"> <img src="events/girl at babyshower.jpg" alt="girl at babyshower">
+					<div class="item center-block"> <img src="events/girl_at_babyshower.jpg" alt="girl at babyshower">
 					</div>
 					
-					<div class="item center-block"><img src="events/make a wish.jpg" alt="make a wish">
+					<div class="item center-block"><img src="events/make_a_wish.jpg" alt="make a wish">
 					</div>
 					
-					<div class="item horizontal_modal center-block"><img src="events/man at the event.jpg" alt="man at the event">
+					<div class="item horizontal_modal center-block"><img src="events/man_at_the_event.jpg" alt="man at the event">
 					</div>
 					
-					<div class="item horizontal_modal center-block"><img src="events/mom and son.jpg" alt="mom and son">
+					<div class="item horizontal_modal center-block"><img src="events/mom_and_son.jpg" alt="mom and son">
 					</div>
 					
-					<div class="item horizontal_modal center-block"><img src="events/woman smiling.jpg" alt="woman smiling">
+					<div class="item horizontal_modal center-block"><img src="events/woman_smiling.jpg" alt="woman smiling">
+					</div>
+					
+					<div class="item horizontal_modal center-block"><img src="events/baptism_church.jpg" alt="woman smiling">
+					</div>
+					
+					<div class="item horizontal_modal center-block"><img src="events/details_baptism_church.jpg" alt="woman smiling">
+					</div>
+					
+					<div class="item horizontal_modal center-block"><img src="events/small_girl_smile.jpg" alt="woman smiling">
 					</div>
 					
 				<!--end carousel-inner-->
