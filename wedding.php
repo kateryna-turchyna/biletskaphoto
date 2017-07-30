@@ -37,19 +37,15 @@
 				
 				<a href="#gallery" data-slide-to="13" class="grid__item"><img src="wedding/wedding shoot.jpg" data-toggle="modal" data-target="#myModal"></a>
 
-				<a href="#gallery" data-slide-to="14" class="grid__item"><img src="wedding/bride in Chicago.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="14" class="grid__item"><img src="wedding/bride with roses.jpg" data-toggle="modal" data-target="#myModal"></a>
 
-				<a href="#gallery" data-slide-to="156" class="grid__item"><img src="wedding/bride with roses.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="15" class="grid__item"><img src="wedding/couple and bridge.jpg" data-toggle="modal" data-target="#myModal"></a>
 
-				<a href="#gallery" data-slide-to="16" class="grid__item"><img src="wedding/couple and bridge.jpg" data-toggle="modal" data-target="#myModal"></a>
-
-				<a href="#gallery" data-slide-to="17" class="grid__item"><img src="wedding/hands of couple.jpg" data-toggle="modal" data-target="#myModal"></a>
-
-				<a href="#gallery" data-slide-to="18" class="grid__item"><img src="wedding/Untitled-2.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="16" class="grid__item"><img src="wedding/Untitled-2.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
-				<a href="#gallery" data-slide-to="19" class="grid__item"><img src="wedding/wedding in lincoln park.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="17" class="grid__item"><img src="wedding/wedding in lincoln park.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
-				<a href="#gallery" data-slide-to="20" class="grid__item"><img src="wedding/hands close up.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="18" class="grid__item"><img src="wedding/hands close up.jpg" data-toggle="modal" data-target="#myModal"></a>
 	   
 
 			
