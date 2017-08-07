@@ -67,7 +67,7 @@
 					<div class="item vertical_modal center-block"> <img src="wedding/bride_and_groom.jpg" alt="item1">
 					</div>
 					
-					<div class="item vertical_modal center-block"> <img src="wedding/bride_in_the_Chicago.jpg" alt="item2">
+					<div class="item vertical_modal center-block"> <img src="wedding/bride_in_the_chicago.jpg" alt="item2">
 					</div>
 					
 					<div class="item horizontal_modal center-block"> <img src="wedding/bride_moment.jpg" alt="item3">

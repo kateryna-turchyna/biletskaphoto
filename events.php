@@ -35,7 +35,6 @@
 		<div class="modal-dialog">
 			<div class="modal-content center-block">
 				<div class="modal-header">
-					<div class="pull-left">Wedding/Couples</div>
 						<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
 				</div>
 
