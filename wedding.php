@@ -10,10 +10,9 @@
 		  
 				<a href="#gallery" data-slide-to="0" class="grid__item grid__sizer"><img src="wedding/bride_and_flowers.jpg" data-toggle="modal" data-target="#myModal"></a>
 		   
-		 
 				<a href="#gallery" data-slide-to="1" class="grid__item" ><img src="wedding/bride_and_groom.jpg" data-toggle="modal" data-target="#myModal"></a>
 	   
-				<a href="#gallery" data-slide-to="2" class="grid__item"><img src="wedding/bride_in_the_Chicago.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="2" class="grid__item"><img src="wedding/bride_in_the_chicago.jpg" data-toggle="modal" data-target="#myModal"></a>
 		  
 				<a href="#gallery" data-slide-to="3" class="grid__item"><img src="wedding/bride_moment.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
