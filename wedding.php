@@ -32,22 +32,17 @@
 				<a href="#gallery" data-slide-to="12" class="grid__item"><img src="wedding/wedding_in_chicago.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
 				<a href="#gallery" data-slide-to="13" class="grid__item"><img src="wedding/wedding_shoot.jpg" data-toggle="modal" data-target="#myModal"></a>
+	
+				<a href="#gallery" data-slide-to="14" class="grid__item"><img src="wedding/bride_with_roses.jpg" data-toggle="modal" data-target="#myModal"></a>
 
-				<a href="#gallery" data-slide-to="14" class="grid__item"><img src="wedding/bride_in_chicago.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="15" class="grid__item"><img src="wedding/couple_and_bridge.jpg" data-toggle="modal" data-target="#myModal"></a>
 
-				<a href="#gallery" data-slide-to="156" class="grid__item"><img src="wedding/bride_with_roses.jpg" data-toggle="modal" data-target="#myModal"></a>
-
-				<a href="#gallery" data-slide-to="16" class="grid__item"><img src="wedding/couple_and_bridge.jpg" data-toggle="modal" data-target="#myModal"></a>
-
-				<a href="#gallery" data-slide-to="17" class="grid__item"><img src="wedding/hands_of_couple.jpg" data-toggle="modal" data-target="#myModal"></a>
-
-				<a href="#gallery" data-slide-to="18" class="grid__item"><img src="wedding/roses.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="16" class="grid__item"><img src="wedding/pink_roses.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
-				<a href="#gallery" data-slide-to="19" class="grid__item"><img src="wedding/wedding_in_lincoln_park.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="17" class="grid__item"><img src="wedding/wedding_in_lincoln_park.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
-				<a href="#gallery" data-slide-to="20" class="grid__item"><img src="wedding/hands_close_up.jpg" data-toggle="modal" data-target="#myModal"></a>
-						
-			</div>
+				<a href="#gallery" data-slide-to="18" class="grid__item"><img src="wedding/hands_close_up.jpg" data-toggle="modal" data-target="#myModal"></a>
+	   
 			
 		</div>
 	</div>
@@ -58,7 +53,6 @@
 		<div class="modal-dialog">
 			<div class="modal-content center-block">
 				<div class="modal-header">
-					<div class="pull-left">Wedding/Couples</div>
 						<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
 				</div>
 
@@ -109,19 +103,13 @@
 					<div class="item vertical_modal center-block"><img src="wedding/wedding_shoot.jpg" alt="item0">
 					</div>
 
-					<div class="item horizontal_modal center-block"><img src="wedding/bride_in_chicago.jpg" alt="item0">
-					</div>
-
 					<div class="item vertical_modal center-block"><img src="wedding/bride_with_roses.jpg" alt="item0">
 					</div>
 
 					<div class="item vertical_modal center-block"><img src="wedding/couple_and_bridge.jpg" alt="item0">
 					</div>
-
-					<div class="item horizontal_modal center-block"><img src="wedding/hands_of_couple.jpg" alt="item0">
-					</div>
-
-					<div class="item horizontal_modal center-block"><img src="wedding/roses.jpg" alt="item0">
+					
+					<div class="item horizontal_modal center-block"><img src="wedding/pink_roses.jpg" alt="item0">
 					</div>
 					
 					<div class="item horizontal_modal center-block"><img src="wedding/wedding_in_lincoln_park.jpg" alt="wedding in lincoln park">
@@ -139,9 +127,6 @@
 			</div>
 			
 			<div class="modal-footer">
-			<div class="pull-left">
-			<small>Pictures by Jhanna Biletska</small>
-			</div>
 			<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
 			<!--end modal-footer-->
 			</div>
@@ -151,7 +136,4 @@
 			
 		
 		</div>
-	</div>
-</div>
-</div>	
 <?php include 'footer.php';?>

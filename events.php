@@ -4,7 +4,6 @@
 	<div class="col-md-12">
 		<div class="row">
 			<div class="gal">
-
 				<a href="#gallery" data-slide-to="0" class="grid__item grid__sizer"><img src="events/birthday_girl.jpg" data-toggle="modal" data-target="#myModal"></a>
 		   
 				<a href="#gallery" data-slide-to="1" class="grid__item" ><img src="events/cheers.jpg" data-toggle="modal" data-target="#myModal"></a>
@@ -12,7 +11,7 @@
 				<a href="#gallery" data-slide-to="2" class="grid__item"><img src="events/dad_and_son.jpg" data-toggle="modal" data-target="#myModal"></a>
 		  
 				<a href="#gallery" data-slide-to="3" class="grid__item"><img src="events/girl_at_babyshower.jpg" data-toggle="modal" data-target="#myModal"></a>
-				
+
 				<a href="#gallery" data-slide-to="4" class="grid__item"><img src="events/make_a_wish.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
 				<a href="#gallery" data-slide-to="5" class="grid__item"><img src="events/man_at_the_event.jpg" data-toggle="modal" data-target="#myModal"></a>
@@ -24,13 +23,20 @@
 				<a href="#gallery" data-slide-to="8" class="grid__item"><img src="events/dessert_with_blueberry.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
 				<a href="#gallery" data-slide-to="9" class="grid__item"><img src="events/dessert_in_cup.jpg" data-toggle="modal" data-target="#myModal"></a>
-				
+
+				<a href="#gallery" data-slide-to="8" class="grid__item"><img src="events/baptism_church.jpg" data-toggle="modal" data-target="#myModal"></a>
+		
+				<a href="#gallery" data-slide-to="9" class="grid__item"><img src="events/details_baptism_church.jpg" data-toggle="modal" data-target="#myModal"></a>
+		
+				<a href="#gallery" data-slide-to="10" class="grid__item"><img src="events/small_girl_smile.jpg" data-toggle="modal" data-target="#myModal"></a>
+			</div>
+		</div>
+	</div>
 		<!--begin modal window-->
 	<div class="modal fade modal-fullscreen force-fullscreen" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content center-block">
 				<div class="modal-header">
-					<div class="pull-left">Wedding/Couples</div>
 						<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
 				</div>
 
@@ -69,6 +75,15 @@
 					<div class="item horizontal_modal center-block"><img src="events/dessert_in_cup.jpg" alt="dessert in cup">
 					</div>
 					
+					<div class="item horizontal_modal center-block"><img src="events/baptism_church.jpg" alt="Baptism church">
+					</div>
+					
+					<div class="item horizontal_modal center-block"><img src="events/details_baptism_church.jpg" alt="Baptism church">
+					</div>
+					
+					<div class="item horizontal_modal center-block"><img src="events/small_girl_smile.jpg" alt="Small girl smiles">
+					</div>
+					
 				<!--end carousel-inner-->
 				</div>
 				<!--Begin Previous and Next buttons-->
@@ -88,8 +103,6 @@
 	<!--end modal-content--></div>
 	<!--end modal-dialog--></div>
 	<!--end myModal--></div>	
-			</div>
-		</div>
-	</div>
+			
 </div>
 <?php include 'footer.php';?>

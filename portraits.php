@@ -4,7 +4,6 @@
 	<div class="col-md-12">
 		<div class="row">
 			<div class="gal">
-		  
 				<a href="#gallery" data-slide-to="0" class="grid__item grid__sizer"><img src="portraits/feeling.jpg" data-toggle="modal" data-target="#myModal"></a>
 		   
 				<a href="#gallery" data-slide-to="1" class="grid__item" ><img src="portraits/girl_on_the grass.jpg" data-toggle="modal" data-target="#myModal"></a>
@@ -33,13 +32,17 @@
 				
 				<a href="#gallery" data-slide-to="13" class="grid__item"><img src="portraits/sunny_pregnancy.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
+				<a href="#gallery" data-slide-to="14" class="grid__item"><img src="portraits/girls_playing_with_flowers.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
+				<a href="#gallery" data-slide-to="15" class="grid__item"><img src="portraits/mom_and_daughter.jpg" data-toggle="modal" data-target="#myModal"></a>
+			</div>
+		</div>
+	</div>
 		<!--begin modal window-->
 	<div class="modal fade modal-fullscreen force-fullscreen" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content center-block">
 				<div class="modal-header">
-					<div class="pull-left">Wedding/Couples</div>
 						<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
 				</div>
 
@@ -90,6 +93,12 @@
 					<div class="item vertical_modal center-block"><img src="portraits/sunny_pregnancy.jpg" alt="sunny pregnancy">
 					</div>
 					
+					<div class="item vertical_modal center-block"><img src="portraits/girls_playing_with_flowers.jpg" alt="girls playing with flowers">
+					</div>
+					
+					<div class="item horizontal_modal center-block"><img src="portraits/mom_and_daughter.jpg" alt="mom and daughter">
+					</div>
+					
 					
 				<!--end carousel-inner-->
 				</div>
@@ -112,9 +121,6 @@
 	<!--end myModal--></div>	
 			
 			
-			</div>
-		</div>
-	</div>
 </div>
-</div>	
+		
 <?php include 'footer.php';?>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php include 'header.php';?>
+<?php include 'header.php'; ?>
 <div class="container">
 	<div id="Carousel" class="carousel slide carousel-fade">
   <!-- Indicators -->
