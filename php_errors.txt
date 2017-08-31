@@ -4,3 +4,9 @@ Stack trace:
 #1 C:\dev\sites\mysite\jhanna\mailgun\vendor\mailgun\mailgun-php\src\Mailgun\Connection\RestClient.php(180): Mailgun\Connection\RestClient->send('POST', 'sandbox824a6bda...', Array, Array)
 #2 C:\dev\sites\mysite\jhanna\mailgun\vendor\mailgun\mailgun-php\src\Mailgun\Mailgun.php(168): Mailgun\Connection\RestClient->post('sandbox824a6bda...', Array, Array)
 #3 C:\dev\sites\mysite\jhanna\mailgun\vendor\mailgun\mailgun-php\src\Mailgun\Mailgun.php(111): Mailgun\Mailgun->post('sandbox824a6bda. in C:\dev\sites\mysite\jhanna\mailgun\vendor\mailgun\mailgun-php\src\Mailgun\Connection\RestClient.php on line 255
+[16-Dec-2017 16:55:22 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailgun\Connection\Exceptions\MissingRequiredParameters' with message 'The parameters passed to the API were invalid. Check your inputs! 'to' parameter is not a valid address. please check documentation' in C:\dev\sites\mysite\jhanna\mailgun\vendor\mailgun\mailgun-php\src\Mailgun\Connection\RestClient.php:255
+Stack trace:
+#0 C:\dev\sites\mysite\jhanna\mailgun\vendor\mailgun\mailgun-php\src\Mailgun\Connection\RestClient.php(108): Mailgun\Connection\RestClient->responseHandler(Object(GuzzleHttp\Psr7\Response))
+#1 C:\dev\sites\mysite\jhanna\mailgun\vendor\mailgun\mailgun-php\src\Mailgun\Connection\RestClient.php(180): Mailgun\Connection\RestClient->send('POST', 'sandbox824a6bda...', Array, Array)
+#2 C:\dev\sites\mysite\jhanna\mailgun\vendor\mailgun\mailgun-php\src\Mailgun\Mailgun.php(168): Mailgun\Connection\RestClient->post('sandbox824a6bda...', Array, Array)
+#3 C:\dev\sites\mysite\jhanna\mailgun\vendor\mailgun\mailgun-php\src\Mailgun\Mailgun.php(111): Mailgun\Mailgun->post('sandbox824a6bda. in C:\dev\sites\mysite\jhanna\mailgun\vendor\mailgun\mailgun-php\src\Mailgun\Connection\RestClient.php on line 255

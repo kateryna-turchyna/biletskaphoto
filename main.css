@@ -15,19 +15,102 @@
 		}	
 }
 
+/* @media (max-width: 767px) {  */
+	/* .item {   */
+       /* max-height: 40% !important;  */
+       /* }  */
+/* } */
+
+ /*Small devices (landscape phones, 576px and up)*/
+/* @media (min-width: 576px) and (max-width: 767px) {  */
+	/* .item {   */
+       /* height: 40% !important;  */
+       /* }  */
+	   
+	   /* body { */
+		   /* background-color: red; */
+	   /* } */
+ /* } */
+ 
+ 
+ /* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	 .item {  
+		 max-width: 30em; 
+        } 
+	
+	button.close {
+		width: 10em;
+	}
+	.vertical {
+		max-width: 15em;
+	}
+}
+
+
+
+/* .carousel-inner > .item > img, .carousel-inner > .item > a > img{ */
+    /* margin:auto; */
+/* } */
+
+
+.carousel-inner .item,
+.carousel-inner .item.active,
+.carousel-inner .item img {
+    margin: auto;
+    padding: 0px;
+}
+
+
+
+/* .carousel-inner > .item > img, .carousel-inner > .item > a > img{ */
+    /* margin:auto; */
+/* } */
+
+/*for phones - landscape */
+
+
+ /* @media only screen and (orientation: landscape){  */
+/* .my-max img{ */
+      /* max-height: 10%;   */
+     /* } */
+/* }  */
+
+/* Landscape */
+/* @media only screen  */
+  /* and (min-device-width: 320px)  */
+  /* and (max-device-width: 700px) */
+  /* and (orientation: landscape) { */
+	/* .item {  */
+      /* max-height: 40% !important; */
+      /* } */
+/* } */
+
 h2 {
 	color: #5f9f9f;
 }
 /*header*/
-li.active {
+#bs-example-navbar-collapse-1 ul li.active {
 	border-bottom: 4px solid #5f9f9f;
 }
 li:hover {
 	border-bottom: 4px solid #5f9f9f;
 }
 
-/*main/*
-/*carousel*/
+
+/* .my-max img {  */
+	      /* max-height: 40%; */
+/* } */
+
+
+.my-max img {
+	max-height: 800px;
+}
+	
 img.vertical {
 	display: inline;
 }
@@ -138,7 +221,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	 max-width: 100%;
 }
 
-.modal-dialog {
+/*.modal-dialog {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -155,7 +238,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 .modal-body {
 	padding: 0;
-}
+}*/
 .vertical_modal {
 	width: 40%;
 	height: 40%;

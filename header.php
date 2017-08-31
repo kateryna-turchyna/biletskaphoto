@@ -10,6 +10,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
 	<link rel = "stylesheet" href = "bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="main-igor.css">
 </head>
 <body>
 
@@ -32,11 +33,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav">
-			<li class="active"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
+			<li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
 			<li class="dropdown"><a>Gallery</a>
 					<ul class="dropdown-menu">
 						<li><a href="wedding.php">Wedding/Love-story</a></li>
-						<li><a href="portraits.php">Family/Portrait</a></li>
+						<li><a href="portraits.php">Portrait</a></li>
+						<li><a href="family.php">Family</a></li>
 						<li><a href="events.php">Events</a></li>
 					</ul>
 			</li>
@@ -48,6 +50,16 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<script>
+    $(document).ready(function () {
+        var location = window.location.href;
+        $('#bs-example-navbar-collapse-1 li a').each(function(){
+            if(location.indexOf(this.href)>-1) {
+               $(this).parent().addClass('active');
+            }
+        });
+    });
+</script>
 
 
 

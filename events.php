@@ -29,6 +29,10 @@
 				<a href="#gallery" data-slide-to="9" class="grid__item"><img src="events/details_baptism_church.jpg" data-toggle="modal" data-target="#myModal"></a>
 		
 				<a href="#gallery" data-slide-to="10" class="grid__item"><img src="events/small_girl_smile.jpg" data-toggle="modal" data-target="#myModal"></a>
+				
+				<a href="#gallery" data-slide-to="11" class="grid__item"><img src="events/birthday_boy.jpg" data-toggle="modal" data-target="#myModal"></a>
+				
+				<a href="#gallery" data-slide-to="12" class="grid__item"><img src="events/boy_crying.jpg" data-toggle="modal" data-target="#myModal"></a>
 			</div>
 		</div>
 	</div>
@@ -45,43 +49,49 @@
 				<div id="gallery" class="carousel slide carousel-fade center-block" data-ride="carousel" data-interval="false">
 				<div class="carousel-inner center-block">
 				
-					<div class="item active center-block"><img src="events/birthday_girl.jpg" alt="birthday girl">
+					<div class="item active"><img src="events/birthday_girl.jpg" alt="birthday girl">
 					</div>
 					
-					<div class="item center-block"> <img src="events/cheers.jpg" alt="cheers">
+					<div class="item"> <img src="events/cheers.jpg" alt="cheers">
 					</div>
 					
-					<div class="item center-block"> <img src="events/dad_and_son.jpg" alt="dad and son">
+					<div class="item"> <img src="events/dad_and_son.jpg" alt="dad and son">
 					</div>
 					
-					<div class="item center-block"> <img src="events/girl_at_babyshower.jpg" alt="girl at babyshower">
+					<div class="item"> <img src="events/girl_at_babyshower.jpg" alt="girl at babyshower">
 					</div>
 					
-					<div class="item center-block"><img src="events/make_a_wish.jpg" alt="make a wish">
+					<div class="item"><img src="events/make_a_wish.jpg" alt="make a wish">
 					</div>
 					
-					<div class="item horizontal_modal center-block"><img src="events/man_at_the_event.jpg" alt="man at the event">
+					<div class="item"><img src="events/man_at_the_event.jpg" alt="man at the event">
 					</div>
 					
-					<div class="item horizontal_modal center-block"><img src="events/mom_and_son.jpg" alt="mom and son">
+					<div class="item"><img src="events/mom_and_son.jpg" alt="mom and son">
 					</div>
 					
-					<div class="item horizontal_modal center-block"><img src="events/woman_smiling.jpg" alt="woman smiling">
+					<div class="item"><img src="events/woman_smiling.jpg" alt="woman smiling">
 					</div>
 					
-					<div class="item horizontal_modal center-block"><img src="events/dessert_with_blueberry.jpg" alt="dessert with blueberry">
+					<div class="item"><img src="events/dessert_with_blueberry.jpg" alt="dessert with blueberry">
 					</div>
 					
-					<div class="item horizontal_modal center-block"><img src="events/dessert_in_cup.jpg" alt="dessert in cup">
+					<div class="item"><img src="events/dessert_in_cup.jpg" alt="dessert in cup">
 					</div>
 					
-					<div class="item horizontal_modal center-block"><img src="events/baptism_church.jpg" alt="Baptism church">
+					<div class="item"><img src="events/baptism_church.jpg" alt="Baptism church">
 					</div>
 					
-					<div class="item horizontal_modal center-block"><img src="events/details_baptism_church.jpg" alt="Baptism church">
+					<div class="item"><img src="events/details_baptism_church.jpg" alt="Baptism church">
 					</div>
 					
-					<div class="item horizontal_modal center-block"><img src="events/small_girl_smile.jpg" alt="Small girl smiles">
+					<div class="item"><img src="events/small_girl_smile.jpg" alt="Small girl smiles">
+					</div>
+					
+					<div class="item"><img src="events/birthday_boy.jpg" alt="Small girl smiles">
+					</div>
+					
+					<div class="item"><img src="events/boy_crying.jpg" alt="Small girl smiles">
 					</div>
 					
 				<!--end carousel-inner-->
@@ -94,10 +104,7 @@
 			</div>
 			
 			<div class="modal-footer">
-			<div class="pull-left">
-			<small>Pictures by Jhanna Biletska</small>
-			</div>
-			<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
 			<!--end modal-footer-->
 			</div>
 	<!--end modal-content--></div>
