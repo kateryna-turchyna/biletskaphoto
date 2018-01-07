@@ -5,7 +5,9 @@
 	<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+  
 	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
 	<link rel = "stylesheet" href = "bootstrap.min.css">
@@ -54,8 +56,17 @@
     $(document).ready(function () {
         var location = window.location.href;
         $('#bs-example-navbar-collapse-1 li a').each(function(){
-            if(location.indexOf(this.href)>-1) {
+            if( this.href.length > 0 && location.indexOf(this.href)>-1) {
                $(this).parent().addClass('active');
+			   // alert("Location: " + location +
+				// "; type: " + (typeof location) +
+				// "; length: " + (location.length)
+			   // );
+			   // alert("current: " + this.href +
+				// "; type: " + (typeof this.href) +
+				// "; length: " + (this.href.length)
+			   // );
+			   // alert("index of: " + location.indexOf(this.href));
             }
         });
     });

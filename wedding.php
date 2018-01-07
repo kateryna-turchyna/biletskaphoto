@@ -139,14 +139,14 @@
 			
 			    <div class="row">
 					<div class="col-md-12">
-						<div id="gallery" class="carousel slide carousel-fade" data-ride="carousel"  data-interval="false">
+						<div id="gallery" class="carousel carousel-fade" data-ride="carousel"  data-interval="false">
 							<!--<ol class="carousel-indicators">
 								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 							</ol>-->
 							<div class="carousel-inner " >
-								<div class="item active center-block vertical"><img src="wedding/bride_and_flowers.jpg" class="image-responsive center-block" alt="item0">
+								<div class="item active vertical"><img src="wedding/bride_and_flowers.jpg" class="image-responsive center-block" alt="item0">
 								</div>
 								
 								<div class="item center-block vertical"> <img src="wedding/bride_and_groom.jpg" class="image-responsive center-block" alt="item1">
@@ -176,7 +176,7 @@
 								<div class="item center-block"><img src="wedding/on_the_motorcycle_black_and_white.jpg" class="image-responsive center-block" alt="item0">
 								</div>
 								
-								<div class="item center-block"><img src="wedding/wedding_details.jpg"class="image-responsive center-block"  alt="item0">
+								<div class="item"><img src="wedding/wedding_details.jpg"class="image-responsive center-block"  alt="item0">
 								</div>
 								
 								<div class="item center-block"><img src="wedding/wedding_in_chicago.jpg" class="image-responsive center-block" alt="item0">
