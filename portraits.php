@@ -8,7 +8,7 @@
 		   
 				<a href="#gallery" data-slide-to="1" class="grid__item" ><img src="portraits/grass.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
-				<a href="#gallery" data-slide-to="2" class="grid__item"><img src="portraits/girl_with_sunglasses.jpg" data-toggle="modal" data-target="#myModal"></a>
+				<a href="#gallery" data-slide-to="2" class="grid__item"><img src="portraits/sun.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
 				<a href="#gallery" data-slide-to="3" class="grid__item"><img src="portraits/lonely.jpg" data-toggle="modal" data-target="#myModal"></a>
 				
@@ -22,64 +22,57 @@
 			</div>
 		</div>
 	</div>
-		<!--begin modal window-->
-	<div class="modal fade modal-fullscreen force-fullscreen" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content center-block">
-				<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
-				</div>
-
-			<div class="modal-body center-block">
-			<!--begin carousel-->
-				<div id="gallery" class="carousel slide carousel-fade center-block" data-ride="carousel" data-interval="false">
-				<div class="carousel-inner center-block">
-				
-					<div class="item active center-block"><img src="portraits/feeling.jpg" alt="feeling">
-					</div>
-					
-					<div class="item horizontal_modal center-block"> <img src="portraits/grass.jpg" alt="girl on the grass">
-					</div>
-					
-					<div class="item vertical_modal center-block"> <img src="portraits/girl_with_sunglasses" alt="girl on the swing">
-					</div>
-					
-					<div class="item vertical_modal center-block"> <img src="portraits/lonely.jpg" alt="girl portrait">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="portraits/mood_portrait.jpg" alt="girl with sunglasses">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="portraits/professional_headshots_woman.jpg" alt="lonely">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="portraits/professional_portrait_woman.jpg" alt="man in winter mountains">
-					</div>
-					
-					<div class="item vertical_modal center-block"><img src="portraits/small_girl_with_flowers.jpg" alt="mood portrait">
-					</div>
-					
-				<!--end carousel-inner-->
-				</div>
-				<!--Begin Previous and Next buttons-->
-				<a class="left carousel-control" href="#gallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#gallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
-				<!--end carousel--></div>
-
-	<!--end modal-body-->
-			</div>
+	
+		<div class="modal fade modal-fullscreen force-fullscreen" id="myModal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 			
-			<div class="modal-footer">
-			<div class="pull-left">
-			<small>Pictures by Jhanna Biletska</small>
-			</div>
+			    <div class="row">
+					<div class="col-md-12">
+						<div id="gallery" class="carousel carousel-fade" data-ride="carousel"  data-interval="false">
+							<div class="carousel-inner " >
+								<div class="item active"><img src="portraits/feeling.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+								
+								<div class="item center-block"> <img src="portraits/grass.jpg" class="image-responsive center-block" alt="item1">
+								</div>
+								
+								<div class="item center-block"> <img src="portraits/sun.jpg" class="image-responsive center-block" alt="item2">
+								</div>
+								
+								<div class="item center-block"> <img src="portraits/lonely.jpg" class="image-responsive center-block" alt="item3">
+								</div>
+								
+								<div class="item center-block vertical"><img src="portraits/mood_portrait.jpg" class="image-responsive center-block" alt="item4">
+								</div>
+								
+								<div class="item center-block"><img src="portraits/professional_headshots_woman.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+								
+								<div class="item center-block"><img src="portraits/professional_portrait_woman.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+							 
+								<div class="item center-block"><img src="portraits/small_girl_with_flowers.jpg" class="image-responsive center-block" alt="wedding in lincoln park">
+								</div>
+								
+							</div>
+							<a class="left carousel-control" href="#gallery" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span></a>
+							<a class="right carousel-control" href="#gallery" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span></a>
+						</div>
+					</div>
+				</div>
+			
+			
+		  <div class="modal-footer">
 			<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
-			<!--end modal-footer-->
-			</div>
-	<!--end modal-content--></div>
-	<!--end modal-dialog--></div>
-	<!--end myModal--></div>	
-			
-			
+		  </div>
+		</div>
+	  </div>
+	</div>
 </div>
 		
 <?php include 'footer.php';?>

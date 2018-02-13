@@ -46,91 +46,7 @@
 	</div>
 </div>
 	
-		<!--begin modal window-->
-		<!--test
-	<div class="modal fade modal-fullscreen force-fullscreen" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content center-block">
-				<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
-				</div>
 
-			<div class="modal-body center-block">
-			<!--begin carousel-->
-			<!--test
-				<div id="gallery" class="carousel slide carousel-fade center-block" data-ride="carousel" data-interval="false">
-				<div class="carousel-inner center-block">
-					<div class="item active vertical_modal center-block"><img src="wedding/bride_and_flowers.jpg" alt="item0">
-					</div>
-					
-					<div class="item vertical_modal center-block"> <img src="wedding/bride_and_groom.jpg" alt="item1">
-					</div>
-					
-					<div class="item vertical_modal center-block"> <img src="wedding/bride_in_the_chicago.jpg" alt="item2">
-					</div>
-					
-					<div class="item horizontal_modal center-block"> <img src="wedding/bride_moment.jpg" alt="item3">
-					</div>
-					
-					<div class="item vertical_modal center-block"><img src="wedding/bride_style.jpg" alt="item4">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="wedding/couple_at_the_lake.jpg" alt="item0">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="wedding/couple_at_the_street.jpg" alt="item0">
-					</div>
-				
-					<div class="item horizontal_modal center-block"><img src="wedding/happy_couple.jpg" alt="wedding in lincoln park">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="wedding/her_eyes.jpg" alt="item0">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="wedding/on_the_motorcycle_black_and_white.jpg" alt="item0">
-					</div>
-					
-					<div class="item sq_modal center-block"><img src="wedding/wedding_details.jpg" alt="item0">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="wedding/wedding_in_chicago.jpg" alt="item0">
-					</div>
-					
-					<div class="item vertical_modal center-block"><img src="wedding/wedding_shoot.jpg" alt="item0">
-					</div>
-
-					<div class="item vertical_modal center-block"><img src="wedding/bride_with_roses.jpg" alt="item0">
-					</div>
-
-					<div class="item vertical_modal center-block"><img src="wedding/couple_and_bridge.jpg" alt="item0">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="wedding/pink_roses.jpg" alt="item0">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="wedding/wedding_in_lincoln_park.jpg" alt="wedding in lincoln park">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="wedding/hands_close_up.jpg" alt="item0">
-					</div>
-				<!--end carousel-inner-->
-				<!--test</div>
-				<!--Begin Previous and Next buttons-->
-				<!--test<a class="left carousel-control" href="#gallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#gallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
-				<!--end carousel--><!--test</div>
-
-	<!--end modal-body-->
-		<!--test	</div>
-			
-			<div class="modal-footer">
-			<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
-			<!--end modal-footer-->
-			<!--test</div>
-	<!--end modal-content--><!--test</div>
-	<!--end modal-dialog--><!--test</div>
-	<!--end myModal--><!--test</div>	
-	
-	<!--test-->
 	<div class="modal fade modal-fullscreen force-fullscreen" id="myModal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
 	  <div class="modal-dialog modal-lg">
 		<div class="modal-content">
@@ -225,5 +141,5 @@
 	
 			
 		
-		</div>
+</div>
 <?php include 'footer.php';?>

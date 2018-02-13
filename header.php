@@ -16,6 +16,24 @@
 </head>
 <body>
 
+
+
+
+<!--<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Tutorials
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+    <li role="presentation"><a role="menuitem" href="#">HTML</a></li>
+    <li role="presentation"><a role="menuitem" href="#">CSS</a></li>
+    <li role="presentation"><a role="menuitem" href="#">JavaScript</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" href="#">About Us</a></li>
+  </ul>
+</div>-->
+
+
+
+
 <nav class="navbar navbar-default">
 	<div class="container">
 		<img src="logo/big_logo.png" class="col-md-3 hidden-sm hidden-xs"/>
@@ -35,8 +53,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav">
-			<li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
-			<li class="dropdown"><a>Gallery</a>
+			<li class="hoverStyle"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
+			<li class="dropdown" id="menu1"><a>Gallery</a>
 					<ul class="dropdown-menu">
 						<li><a href="wedding.php">Wedding/Love-story</a></li>
 						<li><a href="portraits.php">Portrait</a></li>
@@ -44,10 +62,10 @@
 						<li><a href="events.php">Events</a></li>
 					</ul>
 			</li>
-			<li><a href="about.php">About</a></li>
-			<li><a href="prices.php">Prices</a></li>
-			<li><a href="contact.php">Contact</a></li>
-			<li><a href="reviews.php">Reviews</a></li>
+			<li class="hoverStyle"><a href="about.php">About</a></li>
+			<li class="hoverStyle"><a href="prices.php">Prices</a></li>
+			<li class="hoverStyle"><a href="contact.php">Contact</a></li>
+			<li class="hoverStyle"><a href="reviews.php">Reviews</a></li>
 		</ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

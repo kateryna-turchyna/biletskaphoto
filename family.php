@@ -22,65 +22,57 @@
 			</div>
 		</div>
 	</div>
-		<!--begin modal window-->
-	<div class="modal fade modal-fullscreen force-fullscreen" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content center-block">
-				<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+	
+	  <div class="modal fade modal-fullscreen force-fullscreen" id="myModal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			
+			    <div class="row">
+					<div class="col-md-12">
+						<div id="gallery" class="carousel carousel-fade" data-ride="carousel"  data-interval="false">
+							<div class="carousel-inner " >
+								<div class="item active"><img src="family/girl_on_a_swing.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+								
+								<div class="item center-block vertical"> <img src="family/girls_playing_with_flowers.jpg" class="image-responsive center-block" alt="item1">
+								</div>
+								
+								<div class="item center-block"> <img src="family/happy_mother_son.jpg" class="image-responsive center-block" alt="item2">
+								</div>
+								
+								<div class="item center-block"> <img src="family/laughing_family.jpg" class="image-responsive center-block" alt="item3">
+								</div>
+								
+								<div class="item center-block"><img src="family/mom_and_daughter.jpg" class="image-responsive center-block" alt="item4">
+								</div>
+								
+								<div class="item center-block"><img src="family/mother_and_daughter.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+								
+								<div class="item center-block"><img src="family/mother_small_daughter.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+							 
+								<div class="item center-block"><img src="portraits/sisters.jpg" class="image-responsive center-block" alt="wedding in lincoln park">
+								</div>
+								
+							</div>
+							<a class="left carousel-control" href="#gallery" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span></a>
+							<a class="right carousel-control" href="#gallery" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span></a>
+						</div>
+					</div>
 				</div>
-
-			<div class="modal-body center-block">
-			<!--begin carousel-->
-				<div id="gallery" class="carousel slide carousel-fade center-block" data-ride="carousel" data-interval="false">
-				<div class="carousel-inner center-block">
-				
-					<div class="item active center-block"><img src="family/girl_on_a_swing.jpg" alt="feeling">
-					</div>
-					
-					<div class="item horizontal_modal center-block"> <img src="family/girls_playing_with_flowers.jpg" alt="girl on the grass">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="family/happy_mother_son.jpg.jpg" alt="girl with sunglasses">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="family/laughing_family.jpg" alt="lonely">
-					</div>
-					
-					<div class="item vertical_modal center-block"><img src="family/mom_and_daughter.jpg" alt="mood portrait">
-					</div>
-					
-					<div class="item vertical_modal center-block"><img src="family/mother_and_daughter.jpg" alt="sunny pregnancy">
-					</div>
-					
-					<div class="item vertical_modal center-block"><img src="family/mother_small_daughter.jpg" alt="girls playing with flowers">
-					</div>
-					
-					<div class="item horizontal_modal center-block"><img src="family/sisters.jpg" alt="mom and daughter">
-					</div>
-					
-					
-				<!--end carousel-inner-->
-				</div>
-				<!--Begin Previous and Next buttons-->
-				<a class="left carousel-control" href="#gallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#gallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
-				<!--end carousel--></div>
-
-	<!--end modal-body-->
-			</div>
-			
-			<!--<div class="modal-footer">
-			<div class="pull-left">
-			<small>Pictures by Jhanna Biletska</small>
-			</div>
-			<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>-->
-			<!--end modal-footer-->
-			</div>
-	<!--end modal-content--></div>
-	<!--end modal-dialog--></div>
-	<!--end myModal--></div>	
-			
-			
+		  <div class="modal-footer">
+			<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
 </div>
+ 
+	</div>
 		
 <?php include 'footer.php';?>

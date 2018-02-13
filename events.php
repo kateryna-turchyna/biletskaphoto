@@ -36,80 +36,88 @@
 			</div>
 		</div>
 	</div>
-		<!--begin modal window-->
-	<div class="modal fade modal-fullscreen force-fullscreen" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content center-block">
-				<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
-				</div>
-
-			<div class="modal-body center-block">
-			<!--begin carousel-->
-				<div id="gallery" class="carousel slide carousel-fade center-block" data-ride="carousel" data-interval="false">
-				<div class="carousel-inner center-block">
-				
-					<div class="item active"><img src="events/birthday_girl.jpg" alt="birthday girl">
-					</div>
-					
-					<div class="item"> <img src="events/cheers.jpg" alt="cheers">
-					</div>
-					
-					<div class="item"> <img src="events/dad_and_son.jpg" alt="dad and son">
-					</div>
-					
-					<div class="item"> <img src="events/girl_at_babyshower.jpg" alt="girl at babyshower">
-					</div>
-					
-					<div class="item"><img src="events/make_a_wish.jpg" alt="make a wish">
-					</div>
-					
-					<div class="item"><img src="events/man_at_the_event.jpg" alt="man at the event">
-					</div>
-					
-					<div class="item"><img src="events/mom_and_son.jpg" alt="mom and son">
-					</div>
-					
-					<div class="item"><img src="events/woman_smiling.jpg" alt="woman smiling">
-					</div>
-					
-					<div class="item"><img src="events/dessert_with_blueberry.jpg" alt="dessert with blueberry">
-					</div>
-					
-					<div class="item"><img src="events/dessert_in_cup.jpg" alt="dessert in cup">
-					</div>
-					
-					<div class="item"><img src="events/baptism_church.jpg" alt="Baptism church">
-					</div>
-					
-					<div class="item"><img src="events/details_baptism_church.jpg" alt="Baptism church">
-					</div>
-					
-					<div class="item"><img src="events/small_girl_smile.jpg" alt="Small girl smiles">
-					</div>
-					
-					<div class="item"><img src="events/birthday_boy.jpg" alt="Small girl smiles">
-					</div>
-					
-					<div class="item"><img src="events/boy_crying.jpg" alt="Small girl smiles">
-					</div>
-					
-				<!--end carousel-inner-->
-				</div>
-				<!--Begin Previous and Next buttons-->
-				<a class="left carousel-control" href="#gallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#gallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
-				<!--end carousel--></div>
-
-	<!--end modal-body-->
-			</div>
+	
+	
+	
+	<div class="modal fade modal-fullscreen force-fullscreen" id="myModal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 			
-			<div class="modal-footer">
-				<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
-			<!--end modal-footer-->
-			</div>
-	<!--end modal-content--></div>
-	<!--end modal-dialog--></div>
-	<!--end myModal--></div>	
+			    <div class="row">
+					<div class="col-md-12">
+						<div id="gallery" class="carousel carousel-fade" data-ride="carousel"  data-interval="false">
+							<!--<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							</ol>-->
+							<div class="carousel-inner " >
+								<div class="item center-block active"><img src="events/birthday_girl.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+								
+								<div class="item center-block"> <img src="events/cheers.jpg" class="image-responsive center-block" alt="item1">
+								</div>
+								
+								<div class="item center-block "> <img src="events/dad_and_son.jpg" class="image-responsive center-block" alt="item2">
+								</div>
+								
+								<div class="item center-block"> <img src="events/girl_at_babyshower.jpg" class="image-responsive center-block" alt="item3">
+								</div>
+								
+								<div class="item center-block"><img src="events/make_a_wish.jpg" class="image-responsive center-block" alt="item4">
+								</div>
+								
+								<div class="item center-block"><img src="events/man_at_the_event.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+								
+								<div class="item center-block"><img src="events/mom_and_son.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+							 
+								<div class="item center-block"><img src="events/woman_smiling.jpg" class="image-responsive center-block" alt="wedding in lincoln park">
+								</div>
+								
+								<div class="item center-block"><img src="events/dessert_with_blueberry.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+								
+								<div class="item center-block"><img src="events/dessert_in_cup.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+								
+								<div class="item center-block"><img src="events/baptism_church.jpg" class="image-responsive center-block"  alt="item0">
+								</div>
+								
+								<div class="item center-block"><img src="events/details_baptism_church.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+								
+								<div class="item center-block"><img src="events/small_girl_smile.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+
+								<div class="item center-block"><img src="events/birthday_boy.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+
+								<div class="item center-block"><img src="events/boy_crying.jpg" class="image-responsive center-block" alt="item0">
+								</div>
+							</div>
+							<a class="left carousel-control" href="#gallery" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span></a>
+							<a class="right carousel-control" href="#gallery" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span></a>
+						</div>
+					</div>
+				</div>
 			
+			
+			
+		  </div>
+		 <!-- <div class="modal-body">
+			<h3>Modal Body</h3>
+		  </div>-->
+		  <div class="modal-footer">
+			<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
 </div>
 <?php include 'footer.php';?>
